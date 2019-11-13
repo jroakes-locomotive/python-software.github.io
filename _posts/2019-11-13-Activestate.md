@@ -2,31 +2,65 @@
 
 ---
 layout: post
-title:  Eric Software | Python Software
-categories: Eric Software
+title:  History Of Python | Python Software
+categories: History Of Python
 ---
 
-eric is a free integrated development environment (IDE) used for computer programming. Since it is a full featured IDE, it provides by default all necessary tools needed for the writing of code and for the professional management of a software project. eric is written in the (programming)[https://python-software.github.io/Core-Python-Programming.md] language Python and its primary use is for developing software written in Python. It is usable for development of any combination of Python 3 or Python 2, Qt 5 or Qt 4 and PyQt 5 or PyQt 4 projects, on Linux, macOS and Microsoft Windows platforms. eric is licensed under the GNU General Public License version 3 or later and is thereby Free Software.
+The (programming)[https://python-software.github.io/Core-Python-Programming.md] language Python was conceived in the late 1980s,and its implementation was started in December 1989by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL). (However, van Rossum stepped down as leader on July 12, 2018. ) Python was named for the BBC TV show Monty Python's Flying Circus.
 
-This means in general terms that the source code of eric can be studied, changed and improved by anyone, that eric can be run for any purpose by anyone and that eric - and any changes or improvements that may have been made to it - can be redistributed by anyone to anyone as long as the license is not changed (copyleft). eric can be downloaded at Sourceforge and installed manually with a python installer script. Most major GNU/Linux distributions include eric in their software repositories, so when using such GNU/Linux distributions eric can be obtained and installed automatically by using the package manager of the particular distribution. Additionally, the author offers access to the source code via a public Mercurial repository. eric is written in Python and uses the PyQt Python bindings for the Qt GUI toolkit.
+Python 2. 0 was released on October 16, 2000, with many major new features, including a cycle-detecting garbage collector (in addition to reference counting) for memory management and support for Unicode. However, the most important change was to the development process itself, with a shift to a more transparent and community-backed process. Python 3.
 
-By design, eric acts as a front end for several programs, for example the QScintilla editor widget. â€¢ GUI designing: â€¢ Integration of Qt Designer, a Graphical user interface builder for the creation of Qt-based Graphical user interfaces â€¢ Debugging, checking, testing and documenting: â€¢ Integrated graphical python debugger which supports both interactive probing while suspended and auto breaking on exceptions as well as debugging multi-threaded and multiprocessing applications â€¢ Integrated automatic code checkers (syntax, errors and style, PEP-8) for static program analysis as well as support of Pylint via plug-in â€¢ Integrated unit testing support by having the option to run python code with command-line parameters â€¢ Version control: â€¢ Integrated version control support for Mercurial and Subversion repositories (as core plug-ins) and git (as optional plug-in) â€¢ Other: â€¢ Running external applications from within the IDE â€¢ Many integrated wizards for regex and Qt dialogs (as core plug-ins) Prior to the release of eric version 5. 5. 0, eric version 4 and eric version 5 coexisted and were maintained simultaneously, while eric 4 was the variant for writing software in Python version 2 and eric version 5 was the variant for writing software in Python version 3. With the release of eric version 5.
+0, a major, backwards-incompatible release, was released on December 3, 2008after a long period of testing. Many of its major features have also been backported to the backwards-compatible Python 2. 6 and 2. 7. In February 1991, Van Rossum published the code (labeled version 0.
 
-5. 0 both variants had been merged into one, so that all versions as of eric version 5. 5. 0 support writing software in Python 2 as well as in Python 3, making the separate development lanes of eric version 4 and 5 obsolete.
+9. 0) to alt. sources. Already present at this stage in development were classes with inheritance, exception handling, functions, and the core datatypes of , , and so on.
 
-Those two separate development lanes are no longer maintained, and the last versions prior to merging them both to 5. 5. 0 were versions 4. 5. 25 and 5. 4.
+Also in this initial release was a module system borrowed from Modula-3; Van Rossum describes the module as "one of Python's major programming units". Python's exception model also resembles Modula-3's, with the addition of an clause. In 1994 comp. lang. python, the primary discussion forum for Python, was formed, marking a milestone in the growth of Python's userbase.
 
-7. Until 2016, eric used a software versioning scheme with a three-sequence identifier, e. g. 5. 0.
+Python reached version 1. 0 in January 1994. The major new features included in this release were the functional programming tools , , and. Van Rossum stated that "Python acquired lambda, reduce(), filter() and map(), courtesy of a Lisp hacker who missed them and submitted working patches". The last version released while Van Rossum was at CWI was Python 1.
 
-1. The first sequence represents the major version number which is increased when there are significant jumps in functionality, the second sequence represents the minor number, which is incremented when only some features or significant fixes have been added, and the third sequence is the revision number, which is incremented when minor bugs are fixed or minor features have been added. From late 2016, the version numbers show the year and month of release, e. g. 16.
+2. In 1995, Van Rossum continued his work on Python at the Corporation for National Research Initiatives (CNRI) in Reston, Virginia from where he released several versions. By version 1. 4, Python had acquired several new features. Notable among these are the Modula-3 inspired keyword arguments (which are also similar to Common Lisp's keyword arguments) and built-in support for complex numbers.
 
-11 for November 2016. eric follows the development philosophy of Release early, release often, following loosely a time-based release schedule. Currently a revision version is released around the first weekend of every month, a minor version is released annually, in most cases approximately between December and February. The following table shows the version (history)[https://python-software.github.io/History-Of-Python.md] of eric, starting from version 4. 0.
+Also included is a basic form of (data)[https://data-science-blog.github.io/Big-Data.md] hiding by name mangling, though this is easily bypassed. During Van Rossum's stay at CNRI, he launched the Computer Programming for Everybody (CP4E) initiative, intending to make programming more accessible to more people, with a basic "literacy" in programming languages, similar to the basic English literacy and mathematics skills required by most employers. Python served a central role in this: because of its focus on (clean)[https://search-engine-optimization-blog.github.io/Clean-Url.md] syntax, it was already suitable, and CP4E's goals bore similarities to its predecessor, ABC. The project was funded by DARPA.
 
-0. Only major (e. g. 6.
+As of 2007 , the CP4E project is inactive, and while Python attempts to be easily learnable and not too arcane in its syntax and semantics, reaching out to non-programmers is not an active concern. In 2000, the Python core development team moved to BeOpen. com to form the BeOpen PythonLabs team. CNRI requested that a version 1. 6 be released, summarizing Python's development up to the point at which the development team left CNRI. Consequently, the release schedules for 1.
 
-0. 0) and minor (e. g. 6. 1.
+6 and 2. 0 had a significant amount of overlap. Python 2. 0 was the only release from BeOpen. com. After Python 2.
 
-0) releases are listed; revision releases (e. g. 6. 0. 1) are omitted. Several allusions are made to the British comedy group Monty Python, which the Python programming language is named after.
+0 was released by BeOpen. com, Guido van Rossum and the other PythonLabs developers joined Digital Creations. The Python 1. 6 release included a new CNRI license that was substantially longer than the CWI license that had been used for earlier releases.
 
-Eric alludes to Eric Idle, a member of the group, and IDLE, the standard python IDE shipped with most distributions. .
+The new license included a clause stating that the license was governed by the laws of the State of Virginia. The Free (Software)[https://python-software.github.io/Eric-Software.md] Foundation argued that the choice-of-law clause was incompatible with the GNU General Public License. BeOpen, CNRI and the FSF negotiated a change to Python's free software license that would make it GPL-compatible. Python 1. 6.
+
+1 is essentially the same as Python 1. 6, with a few minor bug fixes, and with the new GPL-compatible license. Python 2. 0, released October 2000, introduced list comprehensions, a feature borrowed from the functional programming languages SETL and Haskell.
+
+Python's syntax for this construct is very similar to Haskell's, apart from Haskell's preference for punctuation characters and Python's preference for alphabetic keywords. Python 2. 0 also introduced a garbage collection system capable of collecting reference cycles. Python 2. 1 was close to Python 1.
+
+6. 1, as well as Python 2. 0. Its license was renamed Python Software Foundation License. All code, documentation and specifications added, from the time of Python 2.
+
+1's alpha release on, is owned by the Python Software Foundation (PSF), a non-profit organization formed in 2001, modeled after the Apache Software Foundation. The release included a change to the language specification to support nested scopes, like other statically scoped languages. (The feature was turned off by default, and not required, until Python 2. 2. ) A major innovation in Python 2.
+
+2 was the unification of Python's types (types written in C) and classes (types written in Python) into one hierarchy. This single unification made Python's object model purely and consistently object oriented. Also added were generators which were inspired by Icon. Python 2. 5 was released on September 2006and introduced the statement, which encloses a code block within a context manager (for example, acquiring a lock before the block of code is run and releasing the lock afterwards, or opening a file and then closing it), allowing Resource Acquisition Is Initialization (RAII)-like behavior and replacing a common try/finally idiom.
+
+Python 2. 6 was released to coincide with Python 3. 0, and included some features from that release, as well as a "warnings" mode that highlighted the use of features that were removed in Python 3. 0.
+
+Similarly, Python 2. 7 coincided with and included features from Python 3. 1,which was released on June 26, 2009. Parallel 2. x and 3.
+
+x releases then ceased, and Python 2. 7 was the last release in the 2. x series. In November 2014, it was announced that Python 2.
+
+7 would be supported until 2020, but users were encouraged to move to Python 3 as soon as possible. Python 3. 0 (also called "Python 3000" or "Py3K") was released on December 3, 2008. It was designed to rectify fundamental design flaws in the languageâ€”the changes required could not be implemented while retaining full backwards compatibility with the 2. x series, which necessitated a new major version number.
+
+The guiding principle of Python 3 was: "reduce feature duplication by removing old ways of doing things". Python 3. 0 was developed with the same philosophy as in prior versions. However, as Python had accumulated new and redundant ways to program the same task, Python 3. 0 had an emphasis on removing duplicative constructs and modules, in keeping with "There should be oneâ€” and preferably only one â€”obvious way to do it". Nonetheless, Python 3.
+
+0 remained a multi-paradigm language. Coders could still follow object-oriented, structured, and functional programming paradigms, among others, but within such broad choices, the details were intended to be more obvious in Python 3. 0 than they were in Python 2. x.
+
+Python 3. 0 broke backward compatibility, and much Python 2 code does not run unmodified on Python 3. Python's dynamic typing combined with the plans to change the semantics of certain methods of dictionaries, for example, made perfect mechanical translation from Python 2. x to Python 3. 0 very difficult. A tool called "2to3" does the parts of translation that can be done automatically.
+
+At this, 2to3 appeared to be fairly successful, though an early review noted that there were aspects of translation that such a tool would never be able to handle. Prior to the roll-out of Python 3, projects requiring compatibility with both the 2. x and 3. x series were recommended to have one source (for the 2.
+
+x series), and produce releases for the Python 3. x platform using 2to3. Edits to the Python 3. x code were discouraged for so long as the code needed to run on Python 2. x.
+
+This is no longer recommended; as of 2012 the preferred approach is to create a single code base that can run under both Python 2 and 3 using compatibility modules. Some of the major changes included for Python 3. 0 were: â€¢ Changing so that it is a built-in function, not a statement. This made it easier to change a module to use a different print function, as well as making the syntax more regular. In Python 2. 6 and 2.
+
+7 is available as a builtin but is masked by the print statement syntax, which can be disabled by entering at the top of the file. â€¢ Removal of the Python 2 function, and the renaming of the function to. Python 3's function behaves like Python 2's function, in that the input is always returned as a string rather than being evaluated as an expression. â€¢ Moving (but not or ) out of the built-in namespace and into (the rationale being that operations using reduce are expressed more clearly using an accumulation loop);â€¢ Adding support for optional function annotations that can be used for informal type declarations or other purposes;â€¢ Unifying the / types, representing text, and introducing a separate immutable type; and a mostly corresponding mutable type, both of which represent arrays of bytes;â€¢ A change in integer division functionality: in Python 2, is ; in Python 3, is.
+
+(In both Python 2 (2. 2 onwards) and Python 3, is ). Subsequent releases in the Python 3. x series have included additional, substantial new features; all ongoing development of the language is done in the 3. x series. Release dates for the major and minor versions:.
 
