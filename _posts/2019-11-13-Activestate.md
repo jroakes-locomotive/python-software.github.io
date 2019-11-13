@@ -2,17 +2,31 @@
 
 ---
 layout: post
-title:  Core Python Programming | Python Software
-categories: Core Python Programming
+title:  Eric Software | Python Software
+categories: Eric Software
 ---
 
-Core Python Programming is a textbook on the Python programming language, written by Wesley J. Chun. The first edition of the book was released on December 14, 2000. The second edition was released several years later on September 18, 2006. Core Python Programming is targeted mainly at higher education students and IT professionals.
+eric is a free integrated development environment (IDE) used for computer programming. Since it is a full featured IDE, it provides by default all necessary tools needed for the writing of code and for the professional management of a software project. eric is written in the (programming)[https://python-software.github.io/Core-Python-Programming.md] language Python and its primary use is for developing software written in Python. It is usable for development of any combination of Python 3 or Python 2, Qt 5 or Qt 4 and PyQt 5 or PyQt 4 projects, on Linux, macOS and Microsoft Windows platforms. eric is licensed under the GNU General Public License version 3 or later and is thereby Free Software.
 
-With each printing, the book is updated and errors are corrected. The official site has updates and errata for those with the older printings as well as changes since the last printing. As of February 2011, this edition was in its fifth printing. Core Python Programming has been translated into French, Chinese (simplified) and Hindi. Core Python Programming is divided into two parts with a total of 23 chapters, as well as an index.
+This means in general terms that the source code of eric can be studied, changed and improved by anyone, that eric can be run for any purpose by anyone and that eric - and any changes or improvements that may have been made to it - can be redistributed by anyone to anyone as long as the license is not changed (copyleft). eric can be downloaded at Sourceforge and installed manually with a python installer script. Most major GNU/Linux distributions include eric in their software repositories, so when using such GNU/Linux distributions eric can be obtained and installed automatically by using the package manager of the particular distribution. Additionally, the author offers access to the source code via a public Mercurial repository. eric is written in Python and uses the PyQt Python bindings for the Qt GUI toolkit.
 
-The first part of Core Python Programming, Core Python, deals with the basic aspects of the Python programming language. Chapters One and Two, named What is Python? and Getting Started respectively, give instructions on how to install and configure Python, as well as detailing the basic operators and simple statements. Part One continues to cover Sequences (Lists, Strings and Tuples), Built-in Functions and creating functions, Loops (for-loop, while loop and if-statement being the most common); Modules, a full explanation on what Object Oriented Programming is; and syntax. Part Two, Advanced Topics, contains information the more complex aspects of Python, such as GUI programming. Other topics covered include regular expressions, network programming, multithreaded programming, web programming and database programming.
+By design, eric acts as a front end for several programs, for example the QScintilla editor widget. â€¢ GUI designing: â€¢ Integration of Qt Designer, a Graphical user interface builder for the creation of Qt-based Graphical user interfaces â€¢ Debugging, checking, testing and documenting: â€¢ Integrated graphical python debugger which supports both interactive probing while suspended and auto breaking on exceptions as well as debugging multi-threaded and multiprocessing applications â€¢ Integrated automatic code checkers (syntax, errors and style, PEP-8) for static program analysis as well as support of Pylint via plug-in â€¢ Integrated unit testing support by having the option to run python code with command-line parameters â€¢ Version control: â€¢ Integrated version control support for Mercurial and Subversion repositories (as core plug-ins) and git (as optional plug-in) â€¢ Other: â€¢ Running external applications from within the IDE â€¢ Many integrated wizards for regex and Qt dialogs (as core plug-ins) Prior to the release of eric version 5. 5. 0, eric version 4 and eric version 5 coexisted and were maintained simultaneously, while eric 4 was the variant for writing software in Python version 2 and eric version 5 was the variant for writing software in Python version 3. With the release of eric version 5.
 
-Core Python Programming has been generally well received by reviewers. Jeremy Turner, from www. freesoftwaremagazine. com, rated Core Python Programming 10 out of 10, stating: "You should buy this book because it is the best reference guide and learning material on the Python programming language. The book is easy to follow and is an excellent place to start or brush up on your Python skills. " On the other hand, he also stated that: "Python pros, or those looking for answers and examples to specific problems may not enjoy this book.
+5. 0 both variants had been merged into one, so that all versions as of eric version 5. 5. 0 support writing software in Python 2 as well as in Python 3, making the separate development lanes of eric version 4 and 5 obsolete.
 
-The book is also not a complete reference of the Python language, but does do a very good job of explaining it. "Michael Baxter, in a review of the first edition of Core Python Programming on Linux Journal, was also very positive about the book. .
+Those two separate development lanes are no longer maintained, and the last versions prior to merging them both to 5. 5. 0 were versions 4. 5. 25 and 5. 4.
+
+7. Until 2016, eric used a software versioning scheme with a three-sequence identifier, e. g. 5. 0.
+
+1. The first sequence represents the major version number which is increased when there are significant jumps in functionality, the second sequence represents the minor number, which is incremented when only some features or significant fixes have been added, and the third sequence is the revision number, which is incremented when minor bugs are fixed or minor features have been added. From late 2016, the version numbers show the year and month of release, e. g. 16.
+
+11 for November 2016. eric follows the development philosophy of Release early, release often, following loosely a time-based release schedule. Currently a revision version is released around the first weekend of every month, a minor version is released annually, in most cases approximately between December and February. The following table shows the version (history)[https://python-software.github.io/History-Of-Python.md] of eric, starting from version 4. 0.
+
+0. Only major (e. g. 6.
+
+0. 0) and minor (e. g. 6. 1.
+
+0) releases are listed; revision releases (e. g. 6. 0. 1) are omitted. Several allusions are made to the British comedy group Monty Python, which the Python programming language is named after.
+
+Eric alludes to Eric Idle, a member of the group, and IDLE, the standard python IDE shipped with most distributions. .
 
